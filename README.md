@@ -41,9 +41,14 @@
 
 ## 설치 및 실행 방법
 
-### 사전 요구사항
-- Node.js (v18 이상)
-- Redis 서버
+### Redis 서버 실행
+```bash
+# 백엔드 디렉토리로 이동
+cd backend
+
+# Docker Compose로 Redis 서버 실행
+docker-compose up -d
+```
 
 ### 백엔드 설정
 ```bash
